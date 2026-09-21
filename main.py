@@ -11,4 +11,4 @@ def index():
 
 if __name__ == "__main__":
     # Port 5000 is used by AirPlay Receiver on macOS, so use 5001.
-    app.run(debug=True, port=5001)
+    app.run(host='0.0.0.0', port=5001)
